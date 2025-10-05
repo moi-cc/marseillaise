@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'tnr';
+  src: 
+  url('tnr.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'times';
+  src: 
+  url('times.woff2') format('woff2');
+}
+html {
+  font-size: 10px;
+  font-family: 'tnr',sans-serif;
+}
+
+
+h1 {
+  font-size: 7vw;
+  font-family: 'tnr',sans-serif;
+}
+h2 {
+  font-size: 5vw;
+  text-align: center;
+  font-family: 'times',sans-serif;
+  color:azure;
+}
+h3 {
+  font-size: 3.6vw;
+  text-align: center;
+  font-family: 'times',sans-serif;
+}
+
+p, li {
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'times',sans-serif;
+}
+
+
+html {
+  background: linear-gradient(45deg, #00ff80, #0080ff);
+}
+
+body {
+  width: 75%;
+  margin: 2vw auto;
+  background-color: #c0ffff;
+  padding: 2vw 2vw 2vw 2vw;
+  border: 0.5vw solid #006060;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0;
+  color:#00c0c0;
+  text-shadow: #ffffff;
+}
+
+
+img {
+  display: block;
+  width: 100%;
+}
+div{
+  display:table-cell;
+  vertical-align: bottom;
+}
+.cbb{
+  text-decoration: none;
+  background: linear-gradient(45deg, #00ff80, #0080ff);
+  -webkit-background-clip: text; /* 将背景裁剪到文字 */
+  color: transparent;
+}
+.cbb2{
+  text-decoration: none;
+  color: #c0ffff;
+  font-family: 'times';
+}
